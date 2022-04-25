@@ -1,12 +1,15 @@
 
-/* 
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+h1 {
+    font-family: 'Raleway', sans-serif;
+}
+ul {
+    font-family: 'Roboto';
+}
+#cross {
+  color: rgba(255, 255, 255, 0);
+}
+#cross:hover {
+    color: black;
+}
